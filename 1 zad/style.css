@@ -1,0 +1,17 @@
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+}
+
+.row {
+  display: flex;
+  gap: 16px;
+}
+
+.row img {
+  width: 220px;
+  height: 160px;
+  object-fit: cover;
+}
