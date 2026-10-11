@@ -1,0 +1,26 @@
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+}
+
+.progress-bar {
+  width: 500px;
+  max-width: 500px;
+  height: 20px;
+  background-color: #3b82f6;
+  transform: scaleX(0);
+  transform-origin: left center;
+}
+
+.row {
+  display: flex;
+  gap: 16px;
+}
+
+.row img {
+  width: 220px;
+  height: 160px;
+  object-fit: cover;
+}
